@@ -1,0 +1,4 @@
+#Thu Mar 31 15:31:28 NPT 2022
+base.0=/home/sushant/StudioProjects/holiday_lodges/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

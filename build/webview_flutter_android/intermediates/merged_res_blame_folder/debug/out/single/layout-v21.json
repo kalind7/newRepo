@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sushant/StudioProjects/holiday_lodges/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/sushant/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/sushant/StudioProjects/holiday_lodges/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/sushant/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/sushant/StudioProjects/holiday_lodges/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/sushant/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/sushant/StudioProjects/holiday_lodges/build/webview_flutter_android/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/sushant/.gradle/caches/transforms-2/files-2.1/67ff0aaf930f65024e6c37d99bc9e852/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+local/sushant/holiday_lodges/MainActivity.java
+ local.sushant.holiday_lodges.MainActivity
+local/sushant/holiday_lodges/BuildConfig.java
+ local.sushant.holiday_lodges.BuildConfig
