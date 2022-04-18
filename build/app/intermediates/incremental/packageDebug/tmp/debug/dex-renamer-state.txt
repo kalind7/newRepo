@@ -1,4 +1,4 @@
-#Thu Mar 31 15:03:43 NPT 2022
-base.0=/home/sushant/StudioProjects/holiday_lodges/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Mon Apr 18 19:41:38 NPT 2022
+base.0=C\:\\Users\\Kalind Koirala\\StudioProjects\\holiday\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

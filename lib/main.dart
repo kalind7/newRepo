@@ -1,7 +1,6 @@
-import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:holiday_lodges/splash_screen.dart';
 import 'package:webview_flutter/webview_flutter.dart';
-import 'package:animated_splash_screen/animated_splash_screen.dart';
 
 
 void main() {
@@ -19,15 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const MyHomePage(title: ''),
-      home: AnimatedSplashScreen(
-        splash: Image.asset(
-          'assets/HolidayLodges_logo_sm.png'
-          ),
-          duration: 3000,
-          nextScreen: const MyHomePage(title: ''),
-          splashTransition: SplashTransition.rotationTransition,
-          backgroundColor: Colors.deepPurpleAccent,
-      ),
+      home: SplashScreen(),
     );
   }
 }
