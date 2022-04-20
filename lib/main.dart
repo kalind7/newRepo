@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:holiday_lodges/splash_screen.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:holiday_lodges/home_screen.dart';
 
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(const HolidayLodges());
 }
-// void main() => runApp(SplashScreenPage());
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class HolidayLodges extends StatelessWidget {
+  const HolidayLodges({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,29 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: const MyHomePage(title: ''),
-      home: SplashScreen(),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return const SafeArea(
-      child: WebView(
-        initialUrl: "https://holidaylodges.app",
-        javascriptMode: JavascriptMode.unrestricted,
-      ),
+      home: const HomeScreen(),
     );
   }
 }
